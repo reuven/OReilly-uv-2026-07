@@ -1,0 +1,17 @@
+[project]
+name = "uvcourseproj"
+version = "2.1.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+colorizing = [
+    "rich>=15.0.0",
+]
+dev = [
+    "pytest>=9.1.1",
+]
